@@ -1,0 +1,217 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+/*main de index*/
+.main {
+  padding-bottom: 3em;
+  padding-top: 10rem;
+}
+@media (max-width: 768px) {
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+body {
+  background-color: black;
+  z-index: 0;
+  margin: 0;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Patua One", cursive;
+  color: whitesmoke;
+  font-size: 3.5em;
+}
+
+h3 {
+  text-align: left;
+  font-family: "Patua One", cursive;
+  color: whitesmoke;
+  font-size: 3.5em;
+}
+
+h4 {
+  text-align: center;
+  font-family: "Patua One", cursive;
+  color: #f7fd9b;
+  font-size: 2em;
+}
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+a:link, a:visited, a:active {
+  text-decoration: none;
+}
+
+header {
+  background-color: #09262e;
+  padding: 1em 2em;
+  height: min-content;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 4;
+}
+@media (max-width: 768px) {
+  header {
+    padding: 2rem 1rem;
+  }
+}
+header h1 {
+  color: #f7fd9b;
+  font-family: "Patua One", cursive;
+}
+header .menu-icon {
+  display: none;
+  color: whitesmoke;
+}
+@media (max-width: 768px) {
+  header .menu-icon {
+    display: block;
+    cursor: pointer;
+  }
+}
+header .container1 {
+  width: 90%;
+  margin-left: 10%;
+}
+header .logo {
+  letter-spacing: 1rem;
+  font-size: 2 rem;
+  text-decoration: none;
+  width: 800px;
+  margin-bottom: 1rem;
+}
+@media (max-width: 768px) {
+  header .logo {
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+  }
+}
+header .logo-nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  header .logo-nav-container {
+    flex-wrap: wrap;
+  }
+}
+header .navegacion {
+  width: 800px;
+}
+header .navegacion ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+@media (max-width: 768px) {
+  header .navegacion ul {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  header .navegacion ul.show {
+    display: block;
+  }
+}
+header .navegacion ul li a {
+  display: block;
+  font-family: "Patua One", cursive;
+  font-size: 1.2rem;
+  padding: 0.5rem 0.8rem;
+  color: whitesmoke;
+  transition: all 0.5s linear;
+  border-radius: 5px;
+  text-decoration: none;
+}
+header .navegacion ul li a:hover {
+  background-color: #f7fd9b;
+  color: #09262e;
+}
+
+footer {
+  background-color: black;
+}
+
+.imglinks {
+  padding: 0;
+  width: 40px;
+  margin: 5px 250px;
+  border-radius: 40px;
+}
+@media (max-width: 768px) {
+  .imglinks {
+    margin: 1px;
+  }
+}
+
+.parrafos {
+  color: whitesmoke;
+  text-align: center;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-size: 23px;
+}
+
+.videos {
+  margin-left: 100px;
+  border: 2px solid whitesmoke;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 150px;
+}
+
+.imgcarrusel {
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+}
+@media (max-width: 768px) {
+  .imgcarrusel {
+    height: 200px;
+  }
+}
+
+.imgindex {
+  width: 400px;
+  height: 300px;
+  display: block;
+  margin: auto;
+}
+@media (max-width: 768px) {
+  .imgindex {
+    width: 200px;
+    height: 150px;
+  }
+}
+
+p.parrafos2 {
+  color: white;
+}
+
+.imagendeproductos {
+  width: 400px;
+  height: 300px;
+  display: block;
+  margin: auto;
+}
+@media (max-width: 768px) {
+  .imagendeproductos {
+    width: 200px;
+    height: 150px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,104 @@
+@import '../funciones/listas';
+header{
+    background-color: nth($colores, 1);
+    padding: 1em 2em;
+    @media (max-width: 768px){
+        padding: 2rem 1rem;
+    }
+    height: min-content;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 4;
+    
+
+
+
+h1{
+    color: nth($colores, 3);
+    font-family: 'Patua One', cursive;
+}
+.menu-icon{
+    display: none;
+    color: nth($colores, 2);
+    @media (max-width: 768px){
+        display: block;
+        cursor: pointer;
+    }
+
+}
+
+.container1{
+    width: 90%;
+    margin-left: 10%;
+}
+
+
+
+
+
+.logo{
+    letter-spacing: 1rem;
+    font-size: 2 rem;
+    text-decoration: none;
+    width: 800px;
+    margin-bottom: 1rem;
+    @media (max-width: 768px){
+        font-size: 1.5em;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @media (max-width: 768px){
+        flex-wrap: wrap;
+    }
+}
+.navegacion{
+    width: 800px;
+    
+}
+
+
+.navegacion ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+   
+@media (max-width: 768px){
+    display: none;
+}
+}
+
+.navegacion ul.show{
+   
+    
+@media (max-width: 768px){
+    display: block;
+}
+}
+
+.navegacion ul li a {
+display: block;
+font-family: 'Patua One', cursive;
+font-size: 1.2rem;
+padding: 0.5rem 0.8rem;
+color: nth($colores, 2);
+transition: all 0.5s linear;
+border-radius: 5px;
+text-decoration: none;
+
+&:hover{
+    background-color: nth($colores, 3);
+    color: nth($colores, 1);
+}
+}
+
+
+}

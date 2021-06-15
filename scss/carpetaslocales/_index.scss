@@ -1,0 +1,47 @@
+@import '../funciones/listas';
+
+
+.parrafos{
+    color: nth($colores, 2);
+    text-align: center;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 23px;
+     }
+
+.videos{
+    margin-left: 100px;
+    border: 2px solid nth($colores, 2);
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 150px;    
+}
+
+.imgcarrusel {
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    @media (max-width: 768px){
+    height: 200px;
+    }
+    }
+
+
+
+
+
+
+
+.imgindex{
+    width: 400px;
+    height: 300px;
+    display:block;
+    margin:auto;
+
+    @media (max-width: 768px){
+    width: 200px;
+    height: 150px;
+    
+    }
+}
+

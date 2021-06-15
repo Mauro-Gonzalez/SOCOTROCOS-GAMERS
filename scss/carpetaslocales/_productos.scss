@@ -1,0 +1,17 @@
+p.parrafos2 {
+    color: white;
+}
+
+.imagendeproductos{
+    width: 400px;
+    height: 300px;
+    display:block;
+    margin:auto;
+
+    @media (max-width: 768px){
+    width: 200px;
+    height: 150px;
+    
+    }
+}
+
