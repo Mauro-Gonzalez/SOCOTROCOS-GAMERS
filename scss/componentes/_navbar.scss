@@ -22,7 +22,7 @@ h1{
 }
 .menu-icon{
     display: none;
-    color: nth($colores, 2);
+    color: nth($colores, 3);
     @media (max-width: 768px){
         display: block;
         cursor: pointer;
