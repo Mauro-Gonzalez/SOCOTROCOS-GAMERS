@@ -1,24 +1,31 @@
 @import '../funciones/listas';
 header{
     background-color: nth($colores, 1);
-    padding: 1em 2em;
-    @media (max-width: 768px){
-        padding: 2rem 1rem;
-    }
-    height: min-content;
 
+
+
+    width: 80px;
+    @media (max-width: 768px){
+        height: min-content;
+    }
+    
     position: fixed;
     left: 0;
     top: 0;
     width: 100%;
+    height: 100px;
     z-index: 4;
-    
+    @media (max-width: 768px){
+        height: min-content;
+    }
+
 
 
 
 h1{
-    color: nth($colores, 1);
+    color: nth($colores, 3);
     font-family: 'Patua One', cursive;
+    margin-top: 15px;
 }
 .menu-icon{
     display: none;
@@ -55,7 +62,7 @@ h1{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 0;
+    margin-left: 6%;
     @media (max-width: 768px){
         flex-wrap: wrap;
     }

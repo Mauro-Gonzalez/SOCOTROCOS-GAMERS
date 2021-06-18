@@ -18,7 +18,6 @@
 body {
   background-color: black;
   z-index: 0;
-  margin-left: 0;
 }
 
 h2 {
@@ -42,11 +41,6 @@ h4 {
   font-size: 2em;
 }
 
-html {
-  min-height: 100%;
-  position: relative;
-}
-
 a:link, a:visited, a:active {
   text-decoration: none;
 }
@@ -60,22 +54,28 @@ a:link, a:visited, a:active {
 
 header {
   background-color: #09262e;
-  padding: 1em 2em;
-  height: min-content;
+  width: 80px;
   position: fixed;
   left: 0;
   top: 0;
   width: 100%;
+  height: 100px;
   z-index: 4;
 }
 @media (max-width: 768px) {
   header {
-    padding: 2rem 1rem;
+    height: min-content;
+  }
+}
+@media (max-width: 768px) {
+  header {
+    height: min-content;
   }
 }
 header h1 {
-  color: #09262e;
+  color: #f7fd9b;
   font-family: "Patua One", cursive;
+  margin-top: 15px;
 }
 header .menu-icon {
   display: none;
@@ -108,7 +108,7 @@ header .logo-nav-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-left: 0;
+  margin-left: 6%;
 }
 @media (max-width: 768px) {
   header .logo-nav-container {
@@ -178,6 +178,11 @@ footer {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 150px;
+}
+@media (max-width: 768px) {
+  .videos {
+    width: 100%;
+  }
 }
 
 .imgcarrusel {

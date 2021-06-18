@@ -20,7 +20,7 @@
 body{
     background-color:nth($colores, 5);
     z-index: 0;
-    margin-left: 0;
+
 }
 
 h2{
@@ -48,9 +48,8 @@ h4{
 
   
 
-  html {
-    min-height: 100%;
-    position: relative;
+html {
+    
   }
   
   a:link, a:visited, a:active {
